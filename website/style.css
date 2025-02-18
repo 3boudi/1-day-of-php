@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(161, 167, 255, 0.4);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007BFF;
+}
+p{
+    font-size: 20px;
+    font:30px bolder;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+p:hover{
+    color: rgb(113, 130, 229);
+    text-shadow: 10px 10px 10px  blue;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
